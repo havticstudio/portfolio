@@ -36,8 +36,6 @@ const ProfileCard = () => {
     };
   }, []);
 
-  console.log("Window Width=" + windowSize.width);
-
   let pathName = usePathname();
 
   const handleCopyEmail = () => {
